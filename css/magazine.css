@@ -1,6 +1,6 @@
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	background-color:#A39A99 ;
 	margin:0;
 	padding:0;
 	/* background-image:url("bg.jpg") */
@@ -10,8 +10,8 @@ body{
 	position:absolute;
 	top:50%;
 	left:50%;
-	width:1022px;
-	height:700px;
+	width:auto;
+	height:auto;
 	/* width:1020px; */
 	/* height:800px; */
 	margin:auto;
@@ -19,7 +19,7 @@ body{
 
 .magazine-viewport .magazine{
 	width:1022px;
-	height:700px;
+	height:800px;
 	/* width:1020px; */
 	/* height:800px; */
 	left:-361px;
