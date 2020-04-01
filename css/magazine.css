@@ -1,11 +1,10 @@
 body{
 	overflow:hidden;
-	background-color:#A39A99;
-	margin:0 auto;
-	max-width: 1024px;
-	padding:0; 
-	/* background-image:url("bg.jpg") */ 
-} 
+	background-color:#A39A99 ;
+	margin:0;
+	padding:0;
+	/* background-image:url("bg.jpg") */
+}
 
 .magazine-viewport .container{
 	position:absolute;
@@ -15,7 +14,7 @@ body{
 	height:auto;
 	/* width:1020px; */
 	/* height:800px; */
-	margin:10;
+	margin:auto;
 }
 
 .magazine-viewport .magazine{
@@ -28,8 +27,8 @@ body{
 }
 
 .magazine-viewport .page{
-	width:761px;
-	height:900px;
+	width:561px;
+	height:700px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -388,3 +387,4 @@ body{
 	bottom:0;
 	width:100%;
 }
+
