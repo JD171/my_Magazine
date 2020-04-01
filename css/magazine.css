@@ -1,11 +1,11 @@
-body{
-	overflow:hidden;
-	background-color:#A39A99 ;
-	margin:0 auto;
-	max-width: 1024px
-	padding:0;
-	/* background-image:url("bg.jpg") */
-}
+/* body{ */
+	/* overflow:hidden; */
+	/* background-color:#A39A99 ; */
+	/* margin:0 auto; */
+	/* max-width: 1024px */
+	/* padding:0; */
+	/* /* background-image:url("bg.jpg") */ */
+/* } */
 
 .magazine-viewport .container{
 	position:absolute;
