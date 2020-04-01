@@ -76,6 +76,11 @@
 
 function loadApp() {
 
+	var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+	if (isMobile){
+		document.body.style.setProperty("-webkit-transform","rotate(-90deg)",null);
+	}
+
  	$('#canvas').fadeIn(1000);
 
  	var flipbook = $('.magazine');
