@@ -7,7 +7,7 @@
 <head>
 <title>My Magazine App</title>
  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-<meta name="viewport" content="width = 1050, user-scalable = no" />
+<meta name="viewport" content="width = 900, user-scalable = no" />
 <script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="lib/hash.js"></script>
@@ -76,11 +76,6 @@
 
 function loadApp() {
 
-	var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-	if (isMobile){
-		document.body.style.setProperty("-webkit-transform","rotate(-90deg)",null);
-	}
-
  	$('#canvas').fadeIn(1000);
 
  	var flipbook = $('.magazine');
@@ -126,7 +121,7 @@ function loadApp() {
 
 			// The number of pages
 
-			pages: 14,
+			pages: 6,
 
 			// Events
 
